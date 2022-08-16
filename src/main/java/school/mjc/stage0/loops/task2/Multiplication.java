@@ -8,10 +8,10 @@ public class Multiplication {
     }
 
     public void printMultiplied(int multiplyByAndToInclusive) {
-        int  i = 1;
-        while(i <= 10)
+        int  i = 0;
+        while(i <= multiplyByAndToInclusive)
         {
-            System.out.printf("%d * %d = %d \n", multiplyByAndToInclusive, i, multiplyByAndToInclusive * i);
+            System.out.println(i*multiplyByAndToInclusive);
             i++;
         }
     }
