@@ -7,7 +7,6 @@ public class NaturalNumbers {
         int begin = 0;
 
         while (begin <= lastPrinted){
-
             System.out.println(begin);
             begin++;
         }
